@@ -23,6 +23,8 @@ This is a simple bot implementation using **logistic regression** and **[Rivescr
 - type **help me [with | my | mine] graduate admissions** to enter prediction mode through bot
 - type **bye** to exit model 
 
-###Dataset 
+### Dataset 
 [Graduate admissions 2](https://www.kaggle.com/mohansacharya/graduate-admissions)
 
+## License 
+This project is licensed under the [Apache 2.0 License](https://github.com/ani-poroorkara/gradBot/blob/master/LICENSE).
