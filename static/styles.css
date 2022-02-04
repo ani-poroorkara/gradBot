@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    background-color: #2C2C54;
+}
+
+button.btn {
+    color: black;
+    border-style: solid;
+    border-color: black;
+}
+
+p.head-link {
+    margin: 0 0;
+    background-color: #693A92;
+    color: #2C2C54;
+}
+a{
+    color: #2C2C54;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+.title {
+    background-color: #A379C9;
+}
+.text-muted {
+    color: black !important;
+}
+.d-flex.justify-content-evenly {
+    padding: 3%;
+    margin: 0% 0;
+}
+a.icons {
+    color: black;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+a.icons:hover{
+    color: #2C2C54;
+}
+.boxed {
+    margin: 0 15%;
+    text-align: left;
+}
+
+p.botText.alert {
+    background-color: #F49D6E;
+    color: black;
+    border-radius: 0px 30px 30px 30px;
+    width: fit-content;
+    margin-top: 5%;
+}
+
+p.userText.alert {
+    background-color: #F5D6BA;
+    color: black;
+    text-align: right;
+    border-radius: 30px 30px 0px 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+input#textInput {
+    background-color: #F5D6BA;
+    border-radius: 10px;
+}:focus{
+    border-color: #F49D6E;
+}
+
+#chatbot{
+    margin: 0 20%;
+}
+
+#userInput{
+    text-align: end;
+    margin-bottom: 5%;
+}
