@@ -1,5 +1,4 @@
 # gradBot - Student helper!
-[![GitHub license](https://img.shields.io/github/license/ani-poroorkara/gradBot?style=flat-square)](https://github.com/ani-poroorkara/gradBot/blob/master/LICENSE)
 
 gradBot is a [Rivescript](https://www.rivescript.com/) chatbot made with python and flask. This bot uses logistic regression to estimate admit chances to a graduate university. It takes inputs like TOEFL, GRE and CGPA to predict the chances of admit into your choice of university. 
 There are also some random chat replies from Rivescript so just have fun!
@@ -7,8 +6,8 @@ There are also some random chat replies from Rivescript so just have fun!
 ## [Hosted on Heroku](http://gradbot-heroku.herokuapp.com/)
 
 ### Build with 
-1. [Python]()
-2. [Flask]()
+1. [Python](https://www.python.org/)
+2. [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 3. [Rivescript](https://www.rivescript.com/)
 
 ### Features

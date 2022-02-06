@@ -25,6 +25,50 @@ def index():
 def get_bot_response():
 	userText = request.args.get('msg')
 	msg = userText
+
+	if msg.find('gre') != -1 :
+			global gre
+			gre = [int(i) for i in msg.split() if i.isdigit()] 
+
+	if msg.find('cgpa') != -1 :
+		global cgpa
+		cgpa = re.findall("\d+\.\d+", msg)
+		cgpa = [float(i) for i in cgpa]
+		
+	if msg.find('toefl') != -1 :
+		global toefl
+		toefl = [int(i) for i in msg.split() if i.isdigit()] 
+		
+	if msg.find('rank') != -1 :
+		global uniRank
+		uniRank = [int(i) for i in msg.split() if i.isdigit()] 
+		
+	if msg.find('sop') != -1 :
+		global sop
+		sop = re.findall("\d+\.\d+", msg)
+		sop = [float(i) for i in sop] 
+		
+	if msg.find('lor') != -1 :
+		global lor
+		lor = re.findall("\d+\.\d+", msg)
+		lor = [float(i) for i in lor]
+		
+	if msg.find('research') != -1 :
+		global research
+		if msg.find('yes')!= -1:
+			research = 1
+		else:
+			research = 0
+	
+	if msg.find('find') != -1 :
+		new_data = [(gre[0],cgpa[0],toefl[0],uniRank[0],research,sop[0],lor[0])]
+		new_array = np.asarray(new_data)
+		labels=["reject","admit"]
+		prediction=model.predict(new_array)
+		botText= labels[int(prediction) ]+'. Do you want to start again?'
+		return str(botText)
+
+
 	botText=bot.reply('localuser',msg)
 	return str(botText)
 
