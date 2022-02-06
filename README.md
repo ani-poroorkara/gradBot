@@ -1,30 +1,32 @@
-# gradBot - Logistic Regression and RiveScript 
+# gradBot - Student helper!
+[![GitHub license](https://img.shields.io/github/license/ani-poroorkara/gradBot?style=flat-square)](https://github.com/ani-poroorkara/gradBot/blob/master/LICENSE)
 
-This is a simple bot implementation using **logistic regression** and **[Rivescript](https://www.rivescript.com/)** to estimate admit chances to a *graduate university*
+gradBot is a [Rivescript](https://www.rivescript.com/) chatbot made with python and flask. This bot uses logistic regression to estimate admit chances to a graduate university. It takes inputs like TOEFL, GRE and CGPA to predict the chances of admit into your choice of university. 
+There are also some random chat replies from Rivescript so just have fun!
 
-## Additional Features 
- - Random chatting (Not very good xD)
- - Bot information
+## [Hosted on Heroku](http://gradbot-heroku.herokuapp.com/)
 
-## Environments used when creating
- - Windows 10
- - Scikit Learn
- - RiveScript
+### Build with 
+1. [Python]()
+2. [Flask]()
+3. [Rivescript](https://www.rivescript.com/)
 
-## How to start
-### Install all the required modules to your environment
+### Features
+- Uses logistic regression for prediction
+- Random chatting
+- Model already trained and saved
+### Installation
+1. Clone the repo (code branch) 
+2. Create a virtual environment 
+3. Install the requirements.txt
 
-### Train the model (Optional)
-- Run *thinker.py* to train the model
-- The model will be stored in /model dir
+### How to run it?
+Just go visit gradBot [here](http://gradbot-heroku.herokuapp.com/)!!!
 
-### Start chatting right away :D
-- Run *gradBot.py* and start chatting
-- type **help me [with | my | mine] graduate admissions** to enter prediction mode through bot
-- type **bye** to exit model 
+or Run the *index.py* locally
 
-### Dataset 
+### Resources
 [Graduate admissions 2](https://www.kaggle.com/mohansacharya/graduate-admissions)
 
 ## License 
-This project is licensed under the [Apache 2.0 License](https://github.com/ani-poroorkara/gradBot/blob/master/LICENSE).
+This project is licensed under [Apache 2.0 License](https://github.com/ani-poroorkara/gradBot/blob/master/LICENSE).
