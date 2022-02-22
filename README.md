@@ -1,4 +1,4 @@
-# gradBot - Student helper!
+# gradBot - Student Assistant!
 
 gradBot is a [Rivescript](https://www.rivescript.com/) chatbot made with python and flask. This bot uses logistic regression to estimate admit chances to a graduate university. It takes inputs like TOEFL, GRE and CGPA to predict the chances of admit into your choice of university. 
 There are also some random chat replies from Rivescript so just have fun!

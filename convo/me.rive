@@ -11,7 +11,7 @@
 - You can call me <bot name>.
 - Call me <bot name>
 
-+ how old are you
++ (how old are you|what is your age)
 - I'm <bot age> years old.
 - I'm <bot age>.
 
@@ -30,7 +30,7 @@
 + what is your favorite color
 - Definitely <bot color>.
 
-+ what is your occupation
++ (what is your occupation|what do you do|what is your job)
 - I'm a <bot job>.
 
 + where is your (website|web site|site)
@@ -48,3 +48,4 @@
 
 + who is your master
 - <bot master>.
+
